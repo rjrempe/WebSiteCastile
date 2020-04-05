@@ -1,0 +1,89 @@
+ Volume in drive C is OS
+ Volume Serial Number is 2E13-39CE
+
+ Directory of c:\Projects\WebSiteCastile\Images
+
+03/13/2020  06:21 PM    <DIR>          .
+03/13/2020  06:21 PM    <DIR>          ..
+03/13/2020  06:21 PM            76,529 Bathroom2Empty.jpg
+03/13/2020  06:06 PM            97,865 BreakfastNookFurnished.jpg
+03/11/2020  11:32 AM            59,159 DiningAreaEmpty.jpg
+03/13/2020  05:53 PM            94,966 DiningAreaFurnished.jpg
+03/13/2020  06:07 PM            91,299 DiningAreaFurnished_1.jpg
+03/11/2020  11:40 AM            72,775 DiningToFrontDoorEmpty.jpg
+03/11/2020  10:11 AM           171,928 FrontDirect.jpg
+03/11/2020  10:11 AM           165,827 FrontDirect2.jpg
+03/11/2020  10:11 AM           165,551 FrontDirect3.jpg
+03/11/2020  10:13 AM           143,200 FrontEntryWay.jpg
+03/11/2020  10:10 AM           182,457 FrontLeftSide.jpg
+03/11/2020  10:12 AM           156,479 FrontRightAngle.jpg
+03/11/2020  10:12 AM           150,690 FrontRightAngle2.jpg
+03/11/2020  11:38 AM            97,047 GarageEmpty.jpg
+03/13/2020  05:48 PM           105,146 GreatroomFurnished.jpg
+03/11/2020  11:34 AM            76,280 GreatRoomOffIslandEmpty.jpg
+03/11/2020  11:35 AM            76,261 KitchenCabinetsEmpty.jpg
+03/11/2020  11:37 AM            62,088 KitchenEmpty.jpg
+03/11/2020  11:35 AM            65,111 KitchenFromGreatRoomEmpty.jpg
+03/13/2020  06:08 PM            91,980 KitchenIslandFurnished.jpg
+03/11/2020  11:36 AM            58,839 KitchenNookEmpty.jpg
+03/11/2020  11:37 AM            79,135 KitchenToFrontDoorEmpty.jpg
+03/13/2020  05:29 PM            72,110 LaundryRoom.jpg
+03/13/2020  06:15 PM            97,526 OwnersBathVanity.jpg
+03/13/2020  06:14 PM            86,403 OwnersSuite1.jpg
+03/13/2020  06:17 PM           100,257 OwnersSuite2.jpg
+03/13/2020  06:16 PM           115,743 OwnersSuite3.jpg
+03/13/2020  06:23 PM                 0 pics.txt
+03/13/2020  05:42 PM           184,597 Pool.jpg
+03/13/2020  05:32 PM           153,180 PoolEastToWest.jpg
+03/11/2020  10:14 AM           136,657 PoolEastToWest_1.jpg
+03/13/2020  06:11 PM           118,228 PoolViewFromGreatroom.jpg
+03/11/2020  10:16 AM           135,336 PoolWestToEast.jpg
+03/11/2020  10:15 AM           148,951 PoolWestToEastAngled.jpg
+              34 File(s)      3,689,600 bytes
+               2 Dir(s)  563,555,938,304 bytes free
+
+
+
+background-image: url('Images/BreakfastNookFurnished.jpg');
+background-image: url('Images/DiningAreaEmpty.jpg');
+background-image: url('Images/DiningAreaFurnished.jpg');
+background-image: url('Images/DiningAreaFurnished_1.jpg');
+background-image: url('Images/DiningToFrontDoorEmpty.jpg');
+
+background-image: url('Images/GreatroomFurnished.jpg');
+background-image: url('Images/GreatRoomOffIslandEmpty.jpg');
+
+
+background-image: url('Images/KitchenCabinetsEmpty.jpg');
+background-image: url('Images/KitchenEmpty.jpg');
+background-image: url('Images/KitchenFromGreatRoomEmpty.jpg');
+background-image: url('Images/KitchenIslandFurnished.jpg');
+background-image: url('Images/KitchenNookEmpty.jpg');
+background-image: url('Images/KitchenToFrontDoorEmpty.jpg');
+
+background-image: url('Images/Bathroom2Empty.jpg');
+background-image: url('Images/LaundryRoom.jpg');
+
+
+background-image: url('Images/OwnersBathVanity.jpg');
+background-image: url('Images/OwnersSuite1.jpg');
+background-image: url('Images/OwnersSuite2.jpg');
+background-image: url('Images/OwnersSuite3.jpg');
+
+background-image: url('Images/Pool.jpg');
+background-image: url('Images/PoolEastToWest.jpg');
+background-image: url('Images/PoolEastToWest_1.jpg');
+background-image: url('Images/PoolViewFromGreatroom.jpg');
+background-image: url('Images/PoolWestToEast.jpg');
+background-image: url('Images/PoolWestToEastAngled.jpg');
+
+background-image: url('Images/FrontDirect.jpg');
+background-image: url('Images/FrontDirect2.jpg');
+background-image: url('Images/FrontDirect3.jpg');
+background-image: url('Images/FrontEntryWay.jpg');
+background-image: url('Images/FrontLeftSide.jpg');
+background-image: url('Images/FrontRightAngle.jpg');
+background-image: url('Images/FrontRightAngle2.jpg');
+
+
+background-image: url('Images/GarageEmpty.jpg');
