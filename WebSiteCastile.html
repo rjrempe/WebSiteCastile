@@ -160,14 +160,18 @@ Furnished,Unfurnished,Turnkey,Home,Venice,Florida,Venice Island,Castile Street,B
         </div>
     </div>
 
-    <!-- Second Parallax Image with Portfolio Text -->
+    <!--
+        Second Parallax Image with Portfolio Text
+    -->
     <div class="bgimg-2 w3-display-container w3-opacity-min">
         <div class="w3-display-middle">
             <span class="w3-xxlarge w3-text-white w3-wide">PICTURES</span>
         </div>
     </div>
 
-    <!-- Container (PICTURES Section) -->
+    <!--
+        PICTURES Section Container
+    -->
     <div class="w3-content w3-container w3-padding-64" id="portfolio">
         <h3 class="w3-center">PICTURES</h3>
         <p class="w3-center"><em>Click on the images to make them bigger</em></p><br>
@@ -210,16 +214,13 @@ Furnished,Unfurnished,Turnkey,Home,Venice,Florida,Venice Island,Castile Street,B
                 <img src="Images/KitchenIslandFurnished.jpg" style="width:100%" onclick="onImageClick(this)" class="w3-hover-opacity" alt="KitchenIslandFurnished">
             </div>
             <!--
-            <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
-        -->
+                <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
+            -->
         </div>
 
         <!-- More Images-->
-
-
         <div class="w3-row-padding w3-center">
             <h3 class="w3-center">Owner's Suite</h3>
-
 
             <div class="w3-col m3">
                 <img src="Images/OwnersSuite1.jpg" style="width:100%" onclick="onImageClick(this)" class="w3-hover-opacity" alt="OwnersSuite1">
@@ -238,10 +239,7 @@ Furnished,Unfurnished,Turnkey,Home,Venice,Florida,Venice Island,Castile Street,B
             </div>
         </div>
 
-
-
         <div class="w3-row-padding w3-center  w3-section">
-
 
             <div class="w3-col m3">
                 <img src="Images/OwnersTrayLights.jpg" style="width:100%" onclick="onImageClick(this)" class="w3-hover-opacity" alt="OwnersTrayLights">
@@ -251,21 +249,15 @@ Furnished,Unfurnished,Turnkey,Home,Venice,Florida,Venice Island,Castile Street,B
             <div class="w3-col m3">
                 <img src="Images/OwnersSuiteBathEntry.jpg" style="width:100%" onclick="onImageClick(this)" class="w3-hover-opacity" alt="OwnersSuiteBathEntry">
             </div>
-
-
             <div class="w3-col m3">
                 <img src="Images/OwnersBathVanity.jpg" style="width:100%" onclick="onImageClick(this)" class="w3-hover-opacity" alt="OwnersBathVanity">
             </div>
             <div class="w3-col m3">
                 <img src="Images/OwnersShower.jpg" style="width:100%" onclick="onImageClick(this)" class="w3-hover-opacity" alt="OwnersShower">
             </div>
-
-
         </div>
         <div class="w3-row-padding w3-center">
             <h3 class="w3-center">Guest Rooms and Misc.</h3>
-
-
             <div class="w3-col m3">
                 <img src="Images/GuestBath.jpg" style="width:100%" onclick="onImageClick(this)" class="w3-hover-opacity" alt="GuestBath">
             </div>
@@ -282,7 +274,6 @@ Furnished,Unfurnished,Turnkey,Home,Venice,Florida,Venice Island,Castile Street,B
                 <img src="Images/GuestBedroomSliders.jpg" style="width:100%" onclick="onImageClick(this)" class="w3-hover-opacity" alt="GuestBedroomSliders">
             </div>
 
-
         </div>
 
         <div class="w3-row-padding w3-center  w3-section">
@@ -291,11 +282,9 @@ Furnished,Unfurnished,Turnkey,Home,Venice,Florida,Venice Island,Castile Street,B
                 <img src="Images/GuestBath2.jpg" style="width:100%" onclick="onImageClick(this)" class="w3-hover-opacity" alt="GuestBath2">
             </div>
 
-
             <div class="w3-col m3">
                 <img src="Images/GuestHallway.jpg" style="width:100%" onclick="onImageClick(this)" class="w3-hover-opacity" alt="GuestHallway">
             </div>
-
 
             <div class="w3-col m3">
                 <img src="Images/LaundryRoom.jpg" style="width:100%" onclick="onImageClick(this)" class="w3-hover-opacity" alt="LaundryRoom">
@@ -304,7 +293,6 @@ Furnished,Unfurnished,Turnkey,Home,Venice,Florida,Venice Island,Castile Street,B
             <div class="w3-col m3">
                 <img src="Images/GarageEmpty.jpg" style="width:100%" onclick="onImageClick(this)" class="w3-hover-opacity" alt="GarageEmpty">
             </div>
-
 
         </div>
 
@@ -384,64 +372,108 @@ Furnished,Unfurnished,Turnkey,Home,Venice,Florida,Venice Island,Castile Street,B
                 <img src="Images/BrickPathway.jpg" style="width:100%" onclick="onImageClick(this)" class="w3-hover-opacity" alt="BrickPathway">
             </div>
             <!--
-        <div class="w3-col m3">
-            <img src="Images/FrontRightAngle2.jpg" style="width:100%" onclick="onImageClick(this)" class="w3-hover-opacity" alt="FrontRightAngle2">
+            <div class="w3-col m3">
+                <img src="Images/FrontRightAngle2.jpg" style="width:100%" onclick="onImageClick(this)" class="w3-hover-opacity" alt="FrontRightAngle2">
+            </div>
+                -->
         </div>
-            -->
-
-        </div>
-
-
     </div>
 
-    <!-- Modal for full size images on click-->
+    <!--
+        Modal for full size images
+    -->
     <div id="modalShowImg" class="w3-modal w3-black" onclick="this.style.display='none'">
         <span class="w3-button w3-xlarge w3-black w3-display-topright" title="Close"><i class="fa fa-remove"></i></span>
         <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-            <img id="imgSelected" class="w3-image" >
+            <img id="imgSelected" class="w3-image">
             <p id="caption" class="w3-opacity w3-xlarge"></p>
         </div>
     </div>
 
-    <!-- Third Parallax Image with Portfolio Text -->
+    <!-- Third Parallax Image   CONTACT section -->
     <div class="bgimg-3 w3-display-container w3-opacity-min">
         <div class="w3-display-middle">
             <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
         </div>
     </div>
 
-    <!-- Container (Contact Section) -->
+    <!-- 
+        Container (Contact Section)
+    -->
     <div class="w3-content w3-container w3-padding-64" id="contact">
-        <!-- <h3 class="w3-center">Location</h3> -->
-        <p class="w3-center"><em>Please contact us!</em></p>
 
-        <div class="w3-row w3-padding-32 w3-section">
+        <p class="w3-center w3-hover-opacity w3-xlarge" onclick="onContactUsClick()"><em>Please contact us!</em> </p>
+        
+        <div class="w3-middle">
+            <div class="w3-hover-opacity "onclick="onViewMapClick('104 Castile St. Venice Fl 34285')">
+                <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> 104 Castile St. Venice Florida - The Island<br>
+            </div>
+            <div class="w3-hover-opacity" onclick="onContactUsClick()">
+                <i class="fa fa-envelope fa-fw w3-hover-text-black w3-hover-opacity w3-xlarge w3-margin-right"></i>Send us a message!<br>
+            </div>
+        </div>
 
-            <div class="w3-col m8 w3-panel">
-                <div class="w3-large w3-margin-bottom">
-                    <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> 104 Castile St. Venice Florida - The Island<br>
-                    <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: Richard 239.537.5746 or Martha 239.784.5115<br>
-                    <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: rentals@synergyride.com<br>
-                </div>
 
+        <!--
+    <div class="w3-row w3-padding-32 w3-section">
+
+        <div class="w3-col m8 w3-panel">
+            <div class="w3-large w3-margin-bottom">
+                <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> 104 Castile St. Venice Florida - The Island<br>
+                 <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: Richard 239.537.5746 or Martha 239.784.5115<br>
+                 <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: rentals@synergyride.com<br>
+            </div>
+
+
+        </div>
+    </div>
+    -->
+    </div>
+
+    <!--
+            Modal for "SEND a Message""
+        -->
+
+
+
+    <div id="sendTxtModal" class="w3-modal">
+
+        <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
+
+            <div class="w3-center">
+                <br>
+                <span onclick="document.getElementById('sendTxtModal').style.display='none'" class="w3-button w3-xlarge w3-hover-red w3-display-topright" title="Close Modal">&times;</span>
+
+                <h2>Send an "I am interested" message...</h2>
                 <!--
-                   <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
-                   <form action="/action_page.php" target="_blank">
-                       <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-                           <div class="w3-half">
-                               <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-                           </div>
-                           <div class="w3-half">
-                               <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
-                           </div>
-                       </div>
-                       <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-                       <button class="w3-button w3-black w3-right w3-section" type="submit">
-                           <i class="fa fa-paper-plane"></i> SEND MESSAGE
-                       </button>
-                   </form>
+                <img src="img_avatar4.png" alt="Avatar" style="width:30%" class="w3-circle w3-margin-top">
                 -->
             </div>
+
+            <form class="w3-container">
+                <!-- action="/action_page.php"-->
+                <div class="w3-section">
+                    <label><b>Your name</b></label>
+                    <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Please tell who you are" name="name" required>
+                    <label><b>Your phone #</b></label>
+                    <input class="w3-input w3-border w3-margin-bottom" type="tel" placeholder="So we can get back to you" name="phone" required>
+
+                    <label><b>Additional...</b></label>
+                    <textarea class="w3-input w3-border" placeholder="Any specific questions or comments" name="message"></textarea>
+
+                    <input class="w3-check w3-margin-top" type="checkbox" checked="checked"> I prefer voice callback
+
+                    <button class="w3-button w3-block w3-green w3-section w3-padding" onclick="onSendMessageClick()">Send message</button>
+                    <!-- type="submit"-->
+
+                </div>
+            </form>
+
+            <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
+                <button onclick="document.getElementById('sendTxtModal').style.display='none'" type="button" class="w3-button w3-red">Cancel</button>
+
+            </div>
+
         </div>
     </div>
 
@@ -471,6 +503,21 @@ Furnished,Unfurnished,Turnkey,Home,Venice,Florida,Venice Island,Castile Street,B
             captionText.innerHTML = element.alt;
         }
 
+        // Contact Us
+        function onContactUsClick() {
+
+            document.getElementById("sendTxtModal").style.display = "block";
+        }
+        // Contact Us
+        function onSendMessageClick() {
+            document.getElementById('sendTxtModal').style.display = 'none';
+        }
+
+        function onViewMapClick(address) {
+
+            
+        }
+
         // Change style of navbar on scroll
         window.onscroll = function () { myFunction() };
         function myFunction() {
@@ -491,75 +538,72 @@ Furnished,Unfurnished,Turnkey,Home,Venice,Florida,Venice Island,Castile Street,B
             }
         }
 
+        function generateDynamicTable(data, targetContainerId) {
+
+            var noOfItems = data.length;
+
+            if (noOfItems > 0) {
 
 
+                // CREATE DYNAMIC TABLE.
+                var table = document.createElement("table");
+                table.style.width = '50%';
+                table.setAttribute('border', '1');
+                table.setAttribute('cellspacing', '0');
+                table.setAttribute('cellpadding', '5');
 
-        function generateDynamicTable(data, targetContainerId){
-	
-		    var noOfItems = data.length;
-		
-		    if(noOfItems > 0){
-			
- 
-			    // CREATE DYNAMIC TABLE.
-			    var table = document.createElement("table");
-			    table.style.width = '50%';
-			    table.setAttribute('border', '1');
-			    table.setAttribute('cellspacing', '0');
-			    table.setAttribute('cellpadding', '5');
-			
-			    // retrieve column header ('Name', 'Email', and 'Mobile')
- 
-			    var col = []; // define an empty array
-			    for (var i = 0; i < noOfItems; i++) {
-				    for (var key in data[i]) {
-					    if (col.indexOf(key) === -1) {
-						    col.push(key);
-					    }
-				    }
-			    }
-			
-			    // CREATE TABLE HEAD .
-			    var tHead = document.createElement("thead");	
-				
-			
-			    // CREATE ROW FOR TABLE HEAD .
-			    var hRow = document.createElement("tr");
-			
-			    // ADD COLUMN HEADER TO ROW OF TABLE HEAD.
-			    for (var i = 0; i < col.length; i++) {
-					    var th = document.createElement("th");
-					    th.innerHTML = col[i];
-					    hRow.appendChild(th);
-			    }
-			    tHead.appendChild(hRow);
-			    table.appendChild(tHead);
-			
-			    // CREATE TABLE BODY .
-			    var tBody = document.createElement("tbody");	
-			
-			    // ADD COLUMN HEADER TO ROW OF TABLE HEAD.
-			    for (var i = 0; i < noOfItems; i++) {
-			
-					    var bRow = document.createElement("tr"); // CREATE ROW FOR EACH RECORD .
-										
-					    for (var j = 0; j < col.length; j++) {
-						    var td = document.createElement("td");
-						    td.innerHTML = data[i][col[j]];
-						    bRow.appendChild(td);
-					    }
-					    tBody.appendChild(bRow)
- 
-			    }
-			    table.appendChild(tBody);	
-			
-			
-			    // FINALLY ADD THE NEWLY CREATED TABLE WITH JSON DATA TO A CONTAINER.
-			    var divContainer = document.getElementById(targetContainerId);
-			    divContainer.innerHTML = "";
-			    divContainer.appendChild(table);		
-		    }	
-	    }
+                // retrieve column header ('Name', 'Email', and 'Mobile')
+
+                var col = []; // define an empty array
+                for (var i = 0; i < noOfItems; i++) {
+                    for (var key in data[i]) {
+                        if (col.indexOf(key) === -1) {
+                            col.push(key);
+                        }
+                    }
+                }
+
+                // CREATE TABLE HEAD .
+                var tHead = document.createElement("thead");
+
+
+                // CREATE ROW FOR TABLE HEAD .
+                var hRow = document.createElement("tr");
+
+                // ADD COLUMN HEADER TO ROW OF TABLE HEAD.
+                for (var i = 0; i < col.length; i++) {
+                    var th = document.createElement("th");
+                    th.innerHTML = col[i];
+                    hRow.appendChild(th);
+                }
+                tHead.appendChild(hRow);
+                table.appendChild(tHead);
+
+                // CREATE TABLE BODY .
+                var tBody = document.createElement("tbody");
+
+                // ADD COLUMN HEADER TO ROW OF TABLE HEAD.
+                for (var i = 0; i < noOfItems; i++) {
+
+                    var bRow = document.createElement("tr"); // CREATE ROW FOR EACH RECORD .
+
+                    for (var j = 0; j < col.length; j++) {
+                        var td = document.createElement("td");
+                        td.innerHTML = data[i][col[j]];
+                        bRow.appendChild(td);
+                    }
+                    tBody.appendChild(bRow)
+
+                }
+                table.appendChild(tBody);
+
+
+                // FINALLY ADD THE NEWLY CREATED TABLE WITH JSON DATA TO A CONTAINER.
+                var divContainer = document.getElementById(targetContainerId);
+                divContainer.innerHTML = "";
+                divContainer.appendChild(table);
+            }
+        }
 
     </script>
 
