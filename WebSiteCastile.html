@@ -397,22 +397,24 @@ Furnished,Unfurnished,Turnkey,Home,Venice,Florida,Venice Island,Castile Street,B
         </div>
     </div>
 
-    <!-- 
+    <!--
         Container (Contact Section)
     -->
     <div class="w3-content w3-container w3-padding-64" id="contact">
 
         <p class="w3-center w3-hover-opacity w3-xlarge" onclick="onContactUsClick()"><em>Please contact us!</em> </p>
-        
+
         <div class="w3-middle">
-            <div class="w3-hover-opacity "onclick="onViewMapClick('104 Castile St. Venice Fl 34285')">
-                <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> 104 Castile St. Venice Florida - The Island<br>
-            </div>
             <div class="w3-hover-opacity" onclick="onContactUsClick()">
                 <i class="fa fa-envelope fa-fw w3-hover-text-black w3-hover-opacity w3-xlarge w3-margin-right"></i>Send us a message!<br>
             </div>
+            <br />
+            <div class="w3-hover-opacity " onclick="onViewMapClick('104 Castile St. Venice Fl 34285')">
+                <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> 104 Castile St. Venice Florida - The Island<br>
+            </div>
         </div>
-
+        <br/>
+        <iframe name="castile" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3551.8414895368173!2d-82.45735268495108!3d27.09829348304803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c35b97b9aece25%3A0x5b21d65de282689e!2s104%20Castile%20St%2C%20Venice%2C%20FL%2034285!5e0!3m2!1sen!2sus!4v1586961311942!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
         <!--
     <div class="w3-row w3-padding-32 w3-section">
@@ -434,8 +436,6 @@ Furnished,Unfurnished,Turnkey,Home,Venice,Florida,Venice Island,Castile Street,B
             Modal for "SEND a Message""
         -->
 
-
-
     <div id="sendTxtModal" class="w3-modal">
 
         <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
@@ -444,7 +444,7 @@ Furnished,Unfurnished,Turnkey,Home,Venice,Florida,Venice Island,Castile Street,B
                 <br>
                 <span onclick="document.getElementById('sendTxtModal').style.display='none'" class="w3-button w3-xlarge w3-hover-red w3-display-topright" title="Close Modal">&times;</span>
 
-                <h2>Send an "I am interested" message...</h2>
+                <h3>I'm interested in renting 104 Castile St...</h3>
                 <!--
                 <img src="img_avatar4.png" alt="Avatar" style="width:30%" class="w3-circle w3-margin-top">
                 -->
@@ -514,8 +514,9 @@ Furnished,Unfurnished,Turnkey,Home,Venice,Florida,Venice Island,Castile Street,B
         }
 
         function onViewMapClick(address) {
+                // <a href="https://goo.gl/maps/UDzbzDgJteQscsSd6">castile</a>
 
-            
+
         }
 
         // Change style of navbar on scroll
