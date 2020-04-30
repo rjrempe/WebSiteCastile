@@ -5,13 +5,35 @@ VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8265AE14-B5E8-4422-B623-892E3E0D18B2}"
 	ProjectSection(SolutionItems) = preProject
+		.htaccess = .htaccess
 		w3.css = w3.css
 		WebSiteCastile.html = WebSiteCastile.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{036993CF-57EA-4BE9-BD98-F8A2428916FD}"
+	ProjectSection(SolutionItems) = preProject
+		api\inquiryController.php = api\inquiryController.php
+		api\restService.php = api\restService.php
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "inquiry", "inquiry", "{54B8C3B2-5020-49E5-91E7-0B60EBD741C9}"
+	ProjectSection(SolutionItems) = preProject
+		api\inquiry\inquiry.php = api\inquiry\inquiry.php
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "database", "database", "{2B41B864-8B20-42BB-99D4-3778A79C40C3}"
+	ProjectSection(SolutionItems) = preProject
+		api\database\db.php = api\database\db.php
 	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{036993CF-57EA-4BE9-BD98-F8A2428916FD} = {8265AE14-B5E8-4422-B623-892E3E0D18B2}
+		{54B8C3B2-5020-49E5-91E7-0B60EBD741C9} = {036993CF-57EA-4BE9-BD98-F8A2428916FD}
+		{2B41B864-8B20-42BB-99D4-3778A79C40C3} = {036993CF-57EA-4BE9-BD98-F8A2428916FD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0DD03C41-15B4-4291-BB49-D8ED4CD5DC0B}

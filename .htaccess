@@ -1,0 +1,23 @@
+<IfModule mod_dir.c>
+
+DirectorySlash Off
+
+</IfModule>
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+#
+#	api/inquiry/(\d+)$  will match 'api/inquiry/999' where '999' is any integer value
+#
+#
+RewriteRule api/inquiry/(\d+)$ api/inquiryController.php?id=$1 [QSA,NC,L]
+
+#	api/inquiry/?$  will match: 'api/inquiry' or 'api/inquiry/' the /? says match "once or none" of the '/' character
+#			The line must then end per '$' So no query string can follow... See commented out rule below for allowing query string
+#
+# RewriteRule api/inquiry/?$ api/inquiryController.php [NC,L]
+
+RewriteRule api/inquiry$ api/inquiryController.php [NC,L]
+
+</IfModule>
+
